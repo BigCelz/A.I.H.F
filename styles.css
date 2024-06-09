@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* hero section start */
+/* .hero{
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+} */
+
+.hero {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/side-view-people-making-donations-packages 1.png');
+ }
+
+.hero-word{
+    font-size: 96px;
+    font-weight: 600 !important;
+    line-height: auto;
+    color: #00722F !important;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-word{
+        font-size: 50px;
+        font-weight: 700px;
+        line-height: 80px !important;
+    }
+}
+/* hero section end */
+
+
+/* about start */
+.about{
+    padding: 80px 40px;
+}
+
+.about-head{
+    font-family: Open Sans !important;
+    font-size: 32px;
+    font-weight: 600 !important;
+    color: #184070;
+}
+
+.about-word{
+    font-family: Open Sans !important;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 10px;
+    color: hsl(0, 1%, 40%);
+}
+
+@media screen and (max-width: 768px) {
+    .about-head{
+        font-size: 22px !important;
+    }
+
+   .about-word{
+    font-size: 18px !important;
+   }
+}
+
+/* about end */
+
+/* become start */
+.become{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.become-word{
+    font-size: 25px;
+    font-family: Open Sans;
+    color: hsl(0, 1%, 40%);
+    line-height: 33px;
+    margin-top: 80px;
+    word-wrap: break-word;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.become-btn{
+  width: 334px;
+  height: 63px;
+  border-radius: 12px;
+  background-color: #4EB867;
+  border: none;
+  font-size: 24px;
+  font-family: Space Grotesk;
+  color: white;
+  margin-top: 35px;
+}
+
+.become-img{
+    border-radius: 14px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .become-word{
+        font-size: 19px !important;
+        padding: 0 20px;
+    }
+
+    .become-btn{
+        width: 200px !important;
+        font-size: 20px !important;
+    }
+}
+/* become end */
+
+
+/* footer section start */
+.footer{
+    background: #4EB867;
+
+}
+.footer-imagee{
+    width: 40px;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-list li{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25.52px !important;
+    color: #fff;
+    
+}
+
+.first-list-word{
+    font-family: Space Grotesk !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 40.4px;
+    text-align: left;
+    display: inline-block !important;   
+}
+
+.company-name-ii{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 40.32px !important;
+    letter-spacing: 0.01em !important;
+    text-align: left !important;
+    color: white !important;
+    display: flex;
+    align-items: center;  
+}
+
+.company-name-ii img{
+    margin-right: 10px;
+}
+
+.footer-navbrand img{
+    color: white;
+}
+
+.footer-icons i{
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.footer-figorate{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;      
+}
+
+.listtttt{
+    margin-top: 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-figorate{
+        font-family: Plus Jakarta Sans;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40.32px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;
+        
+    }
+
+    .first-list-word{
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26.4px;
+        text-align: left;        
+        color: #fff;    
+    }
+
+    .footer-list li{
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25.52px;
+        text-align: left;        
+        color: #fff; 
+    }
+
+    .footer-icons{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons i{
+        margin: 0 20px;
+        font-size: 16px;
+    }
+
+    .company-name-ii{
+        font-family: Plus Jakarta Sans;
+        font-size: 22px !important;
+        font-weight: 600 !important;
+        line-height: 30.32px !important;
+        letter-spacing: 0.01em !important;
+        text-align: left !important;
+        color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;
+        display: flex;
+        align-items: center;  
+    }
+}
+/* footer section end */
